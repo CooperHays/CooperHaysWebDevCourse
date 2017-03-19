@@ -13,3 +13,7 @@ Themes: up to you but I like these:
 
 UI Theme: atom-material-ui
 Syntax Theme: atom-material-syntax
+
+
+Brett Notes:
+I'm so ready to start this!
