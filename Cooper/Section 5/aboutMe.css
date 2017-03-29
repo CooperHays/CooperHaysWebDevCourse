@@ -1,0 +1,24 @@
+body {
+  background: pink;
+  /*background: url("http://slodive.com/wp-content/uploads/2013/03/wood-grain-texture/excellent-wood-grain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+h1 {
+  color: #FF8000;
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+
+  border: 8px solid purple;
+}
+
+h4 {
+  color: rgb(68, 0, 100);
+  background: rgb(255,100,80);
+}
+
+li {
+  color: rgba(11, 90, 200, 0.5);;
+}
