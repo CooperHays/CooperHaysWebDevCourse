@@ -12,33 +12,37 @@
 <form action="">
 
 <div>
-  <label for="FirstName">First Name: </label>
+  <!-- Do I need id tags here? Answer: Yes -->
+  <label for="FirstName">First Name:</label>
   <input name="FirstName" id="FirstName" type="text" placeholder="John" required>
 
-  <label for="LastName">Last Name: </label>
+  <label for="LastName">Last Name:</label>
   <input name="LastName" id="LastName" type="text" placeholder="Smith" required>
 </div>
 
 <div>
+  <!-- Do I need to make the radios required? Answer: I should add a value for each button. No you don't need required attribute for this assignment-->
   <label for="Male">Male </label>
-  <input name="Gender" id="Male" type="radio">
+  <input name="Gender" id="Male" type="radio" value="male">
 
   <label for="Female">Female </label>
-  <input name="Gender" id="Female" type="radio">
+  <input name="Gender" id="Female" type="radio" value="female">
 
   <label for="Other">Other </label>
-  <input name="Gender" id="Other" type="radio">
+  <input name="Gender" id="Other" type="radio" value="other">
 </div>
 
 <div>
+  <!-- Be sure to add name attirbutes for inputs so it can be sent correctly on back end. Pattern attribute allows me to set restrictions and title attribute allows me to label what restrictions are for user -->
   <label for="Email">Email:</label>
-  <input id="Email" type="email" placeholder="Email" required>
+  <input id="Email" name="email" type="email" placeholder="your email" required>
 
   <label for="Password">Password:</label>
-  <input id="Password" type="password" placeholder="Password" required pattern=".{5,10}">
+  <input id="Password" name="password" type="password" placeholder="Password" required pattern=".{5,10}" title="Length between 5-10 characters">
 </div>
 
 <div>
+  <!-- Do I need to have id tags in select tags? -->
   <label for="Birthday">Birthday:</label>
   <select name="Month" id="Month">
     <option value="">January</option>
@@ -60,11 +64,13 @@
 </div>
 
 <div>
+  <!-- Do I need a value attirubte? Answer: No, but I should have id and name attributes in input tag-->
   <label for="Terms">I agree to the terms and condtions</label>
-  <input type="checkbox">
+  <input id="Terms" name="terms" type="checkbox">
 </div>
 
 <div>
+  <!-- Do I need a name attribute?  -->
   <input type="submit">
 </div>
 
