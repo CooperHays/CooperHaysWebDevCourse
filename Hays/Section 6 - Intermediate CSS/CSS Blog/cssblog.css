@@ -1,0 +1,59 @@
+body {
+  border: 20px solid #bdc3c7;
+  width: 50%;
+  margin: 20px auto;
+  font-family: source sans pro;
+}
+
+div {
+  margin: 4%;
+}
+
+.Date {
+  color: #3498db;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 30px; 
+}
+
+.First {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+/*border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+
+font: source sans pro
+
+The blog is centered-Look at the photo blog to see how we used %
+on the width
+  My guess is it is 25%-50%-25%
+  Everything inside the body border has some type of padding or
+  margin
+
+Left border turned on 1st paragraph-make this a class
+
+Date is all caps and spaced more than normal-use a class on this
+
+Use a class on the blog post titles
+
+Maybe use a div for each post?
+
+use an hr rule for the divider. Search hr styles*/
