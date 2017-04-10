@@ -40,3 +40,6 @@ Box Model in CSS
         Margin auto will center the content for us
 
 Float in CSS allows divs to go from being stacked (because they are block level) into forming a grid.
+
+Blog Solution:
+  He used rem for sizing the fonts.  Research this more.
