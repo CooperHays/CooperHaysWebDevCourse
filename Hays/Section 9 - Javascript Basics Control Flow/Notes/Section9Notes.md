@@ -32,7 +32,16 @@ Loops:
     //run some code
   } - This is a recursive function mentality where you start from an intial value and repeat until a condition is no longer satisfied
 
-  count++ means add 1 to the variable count
-  count+=2 means add 2 to the variable count
+  count ++ means add 1 to the variable count
+  count += 2 means add 2 to the variable count
 
-  
+  For Loop - for(init; condition; step) {
+    //run some code
+  } - We can make a variable that only exists in the Loop. Shorter than a while loop
+  Example:
+    for(var count = 1; count < 6; count++) {
+      console.log(count);
+    }
+    For loop variables are often single letter names (since they don't exist outside the loop)
+
+    
